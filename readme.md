@@ -41,7 +41,7 @@ ThePixelGrid/
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/ThePixelGrid.git
+   git clone https://github.com/shriyasingh-dot/ThePixelGrid.git
    ```
 2. Navigate into the folder
 
@@ -75,15 +75,6 @@ ThePixelGrid celebrates clean design and personal storytelling. Every pixel repr
 **Shriya Singh**
 Engineering student at Jaypee Institute of Information Technology
 Driven to create meaningful, aesthetic, and impactful digital experiences.
-
----
-
-## 📬l Contact
-
-For collaborations or inquiries:
-📧 **[your.email@example.com](mailto:your.email@example.com)**
-🌐 [Portfolio Link](https://your-username.github.io/ThePixelGrid)
-💼 [LinkedIn](https://www.linkedin.com/in/your-profile)
 
 ---
 

@@ -28,17 +28,9 @@
 ```
 ThePixelGrid/
 ├── index.html
-├── about.html
-├── projects.html
-├── contact.html
-├── assets/
-│   ├── images/
-│   ├── fonts/
-│   └── icons/
-├── styles/
-│   └── style.css
-├── scripts/
-│   └── main.js
+├── style.css
+├── script.css
+├── heart.png
 └── README.md
 ```
 

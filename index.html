@@ -7,7 +7,8 @@
     <title>Shriya Singh Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="heart.png">    
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
@@ -18,8 +19,11 @@
     <!-- Navigation Bar -->
     <nav class="sticky top-0 z-50 py-4 px-6 md:px-12 backdrop-blur-sm bg-black-bean/70">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="#home" class="text-2xl font-bold tracking-tight">Shriya.</a>
+            <a href="#home">
+            <img src="heart.png" alt="Shriya Singh" class="w-10 h-10 rounded-full">
+        </a>
             <div class="flex gap-6 text-sm">
+                <a href="#home" class="hover:text-new-york-pink">Home</a>
                 <a href="#about" class="hover:text-new-york-pink">About</a>
                 <a href="#skills" class="hover:text-new-york-pink">Skills</a>
                 <a href="#projects" class="hover:text-new-york-pink">Projects</a>
@@ -28,7 +32,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="flex items-center justify-center min-h-screen pt-24 pb-12 px-6 text-center gradient-bg">
+    <section id="home" class="flex items-center justify-center min-h-screen pt-24 pb-12 px-6 text-center gradient-bg reveal">
         <div class="max-w-4xl mx-auto space-y-6">
             <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight">
                 Hi, I'm <span class="typewriter">Shriya.</span>
@@ -37,7 +41,7 @@
                 An aspiring software developer passionate about building beautiful and functional web experiences.
             </p>
             <div class="pt-6">
-                <a href="#projects" class="px-6 py-3 bg-white text-cordovan font-bold border-2 border-cordovan hover:bg-cordovan hover:text-white no-transition-hover">
+                <a href="#projects" class="px-6 py-3 font-bold btn-primary">
                     See My Work
                 </a>
             </div>
@@ -45,7 +49,7 @@
     </section>
 
     <!-- About Me Section -->
-   <section id="about" class="min-h-screen flex items-center px-6 bg-cordovan">
+   <section id="about" class="min-h-screen flex items-center px-6 bg-cordovan reveal">
     <div class="container mx-auto text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-12">About Me</h2>
         <div class="space-y-6">
@@ -59,34 +63,55 @@
 
 
     <!-- Skills Section -->
-    <section id="skills" class="py-20 px-6 bg-marvelous text-black">
+    <section id="skills" class="py-20 px-6 bg-marvelous text-black reveal">
         <div class="container mx-auto max-w-5xl text-center">
             <h2 class="text-2xl font-bold mb-12">Skills</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-                <div class="p-8 border-2 border-gray-700 bg-black-bean hover:bg-gray-800 no-transition-hover text-white">
-                    <h3 class="text-xl font-bold mb-4">Programming Languages</h3>
+                
+                <div class="p-8 border-2 border-gray-700 bg-black-bean hover:bg-gray-800 interactive-card text-white">
+                    <h3 class="text-xl font-bold mb-4">Buisness Tools</h3>
                     <ul class="text-sm list-none space-y-2 text-gray-300">
-                        <li>C++</li>
-                        <li>JavaScript</li>
-                        <li>Python</li>
+                        <li>Microsoft Visio</li>
+                        <li>Microsoft Power BI</li>
                     </ul>
                 </div>
-                <div class="p-8 border-2 border-gray-700 bg-black-bean hover:bg-gray-800 no-transition-hover text-white">
-                    <h3 class="text-xl font-bold mb-4">Web Technologies</h3>
-                    <ul class="text-sm list-none space-y-2 text-gray-300">
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>React</li>
-                        <li>Tailwind CSS</li>
-                    </ul>
-                </div>
-                <div class="p-8 border-2 border-gray-700 bg-black-bean hover:bg-gray-800 no-transition-hover text-white">
+                <div class="p-8 border-2 border-gray-700 bg-black-bean hover:bg-gray-800 interactive-card text-white">
                     <h3 class="text-xl font-bold mb-4">Design & Others</h3>
                     <ul class="text-sm list-none space-y-2 text-gray-300">
                         <li>UI/UX Design</li>
                         <li>Figma</li>
                         <li>Canva</li>
-                        <li>Problem Solving</li>
+                        <li>AutoCAD</li>
+                    </ul>
+                </div> 
+                <div class="p-8 border-2 border-gray-700 bg-black-bean hover:bg-gray-800 interactive-card text-white">
+                    <h3 class="text-xl font-bold mb-4">Programming Languages</h3>
+                    <ul class="text-sm list-none space-y-2 text-gray-300">
+                        <li>C++</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="p-8 border-2 border-gray-700 bg-black-bean hover:bg-gray-800 interactive-card text-white">
+                    <h3 class="text-xl font-bold mb-4">Web Technologies</h3>
+                    <ul class="text-sm list-none space-y-2 text-gray-300">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="p-8 border-2 border-gray-700 bg-black-bean hover:bg-gray-800 interactive-card text-white">
+                    <h3 class="text-xl font-bold mb-4">Frameworks</h3>
+                    <ul class="text-sm list-none space-y-2 text-gray-300">
+                        <li>React</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div class="p-8 border-2 border-gray-700 bg-black-bean hover:bg-gray-800 interactive-card text-white">
+                    <h3 class="text-xl font-bold mb-4">Tools & Platforms</h3>
+                    <ul class="text-sm list-none space-y-2 text-gray-300">
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
                     </ul>
                 </div>
             </div>
@@ -94,33 +119,39 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-20 px-6 bg-new-york-pink text-black">
+    <section id="projects" class="py-20 px-6 bg-new-york-pink text-black reveal">
         <div class="container mx-auto max-w-5xl text-center">
             <h2 class="text-2xl font-bold mb-12">Projects</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-black-bean p-6 border-2 border-gray-800 hover:bg-gray-800 no-transition-hover text-white">
+                <div class="bg-black-bean p-6 border-2 border-gray-800 hover:bg-gray-800 interactive-card text-white">
                     <img src="folio.png" alt="Personal Portfolio" class="w-full mb-4">
-                    <h3 class="text-xl font-bold mb-2">Personal Portfolio</h3>
-                    <p class="text-gray-400 text-sm">My personal portfolio website built from scratch to showcase my skills and projects. Fully responsive and clean.</p>
+                    <h3 class="text-xl font-bold mb-2"><a href="https://github.com/shriyasingh-dot/ThePixelGrid.git" target="_blank" class="text-new-york-pink hover:text-white">ThePixelGrid</a></h3>
+                    <p class="text-gray-400 text-sm">
+                        Developed a dynamic portfolio website that showcases my skills, projects, and experiences. The platform features a clean, responsive design with a modern aesthetic and smooth animations. The site is built with HTML, CSS, and JavaScript, and is hosted on GitHub Pages.
+                    </p>
                 </div>
-                <div class="bg-black-bean p-6 border-2 border-gray-800 hover:bg-gray-800 no-transition-hover text-white">
-                    <img src="https://placehold.co/600x400/FF0080/ffffff?text=Quiz+App" alt="Quiz App" class="w-full mb-4">
-                    <h3 class="text-xl font-bold mb-2">Snake Game</h3>
-                    <p class="text-gray-400 text-sm">Interactive snake game built with JavaScript. Simple, efficient, and fun to use.</p>
+                <div class="bg-black-bean p-6 border-2 border-gray-800 hover:bg-gray-800 interactive-card text-white">
+                    <img src="" alt="TheVelocityGrid" class="w-full mb-4">
+                    <h3 class="text-xl font-bold mb-2"><a href="https://github.com/shriyasingh-dot/TheVelocityGrid.git" target="_blank" class="text-new-york-pink hover:text-white">TheVelocityGrid</a></h3>
+                    <p class="text-gray-400 text-sm">Developed an interactive Formula 1 analytics web app that visualizes race data, lap times, and driver performance using real-time telemetry through the FastF1 API. The platform delivers race-week breakdowns, driver comparisons, and historical trends in a sleek, data-driven dashboard.</p>
+                    
                 </div>
-                <div class="bg-black-bean p-6 border-2 border-gray-800 hover:bg-gray-800 no-transition-hover text-white">
-                    <img src="https://placehold.co/600x400/F59E0B/ffffff?text=E-commerce+Site" alt="E-commerce Site" class="w-full mb-4">
-                    <h3 class="text-xl font-bold mb-2">Expense Tracker</h3>
-                    <p class="text-gray-400 text-sm">Front-end mockup of an expense tracking platform with budget management and reporting features.</p>
+                <div class="bg-black-bean p-6 border-2 border-gray-800 hover:bg-gray-800 interactive-card text-white">
+                    <img src="" alt="Port Scanner" class="w-full mb-4">
+                    <h3 class="text-xl font-bold mb-2"><a href="https://github.com/shriyasingh-dot/ThePortGrid.git" target="_blank" class="text-new-york-pink hover:text-white">Port Scanner</a></h3>
+                    <p class="text-gray-400 text-sm">Developed a Python-based port scanner that efficiently scans for open ports on a given IP address. The tool utilizes socket programming to detect active services and protocols, providing a comprehensive view of network accessibility.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </section>      
 
     <!-- Footer -->
     <footer class="py-6 px-6 text-center text-gray-500 bg-black-bean text-sm">
         <p>&copy; 2025 Shriya Singh. All rights reserved.</p>
     </footer>
+
+    <!-- custom cursor -->
+    <div class="cursor-dot" aria-hidden="true"></div>
 
 </body>
 
